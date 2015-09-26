@@ -16,31 +16,14 @@
 }
 
 - (id) initWithSort: (AppleSort) theSort Color : (Color) theColor {
-    self = [super init];
+    self = [super initWithColor: theColor];
     if (self) {
-        _color = theColor;
-        _numberOfSeeds = arc4random_uniform(10);
         _sortName = theSort;
-        _isFallen = false;
-        _percentageOfMaturation = 5;
     }
     return self;
 }
 
 - (id) init {
     return [self initWithSort:arc4random_uniform(sizeof(AppleSort)) Color:arc4random_uniform(sizeof(Color))];
-}
-
-- (void) mature {
-    if(arc4random_uniform(2)==1){
-    _numberOfSeeds += 1;
-    }
-    _percentageOfMaturation += arc4random_uniform(100 - self.percentageOfMaturation);
-    if(self.percentageOfMaturation == 100)
-        self.isFallen = true;
-}
-
-- (void) fallDown  {
-    self.isFallen = true;
 }
 @end

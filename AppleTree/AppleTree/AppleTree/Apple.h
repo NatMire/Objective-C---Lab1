@@ -8,18 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "CommonData.h"
+#import "Fruit.h"
 
-@interface Apple: NSObject
+@interface Apple : Fruit
 
-@property int numberOfSeeds;
 @property AppleSort sortName;
-@property int percentageOfMaturation;
-@property bool isFallen;
-@property Color color;
 
 - (id) initWithSort: (AppleSort) theSort Color : (Color) theColor;
 - (id) init;
 - (void) showDetails;
-- (void) mature;
-- (void) fallDown;
 @end

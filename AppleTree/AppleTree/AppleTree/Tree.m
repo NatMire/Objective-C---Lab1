@@ -30,7 +30,7 @@
     NSLog(@"Growing...");
     self.height += theHeight;
     if(arc4random_uniform(3)==1){
-        [self.apples addObject:[[Apple alloc] init]]];
+        [self.apples addObject:[[Apple alloc] init]];
     }
     for (Apple *apple in self.apples) {
         if(!apple.isFallen) {
@@ -39,7 +39,7 @@
     }
 }
 
--(void)shake {
+-(void) shake {
     NSLog(@"Shaking...");
     for (Apple *apple in self.apples) {
         if(!apple.isFallen && arc4random_uniform(3)==1) {

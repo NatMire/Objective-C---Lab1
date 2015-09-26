@@ -10,6 +10,9 @@
 		D00B6D2A1BA41AB20033B1AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B6D291BA41AB20033B1AB /* main.m */; };
 		D00B6D321BA41BBF0033B1AB /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B6D311BA41BBF0033B1AB /* Apple.m */; };
 		D00B6D351BA422980033B1AB /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B6D341BA422980033B1AB /* Tree.m */; };
+		D03E84D21BB589D000C6772F /* BasketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D03E84D11BB589D000C6772F /* BasketIterator.m */; };
+		D03E84D51BB58ADF00C6772F /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = D03E84D41BB58ADF00C6772F /* Fruit.m */; };
+		D03E84D91BB58D1D00C6772F /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = D03E84D81BB58D1D00C6772F /* Basket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,13 @@
 		D00B6D311BA41BBF0033B1AB /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
 		D00B6D331BA422870033B1AB /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		D00B6D341BA422980033B1AB /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		D03E84D01BB5898900C6772F /* BasketIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasketIterator.h; sourceTree = "<group>"; };
+		D03E84D11BB589D000C6772F /* BasketIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketIterator.m; sourceTree = "<group>"; };
+		D03E84D31BB58A8100C6772F /* Fruit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		D03E84D41BB58ADF00C6772F /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		D03E84D61BB58CCB00C6772F /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
+		D03E84D71BB58CFC00C6772F /* Basket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Basket.h; sourceTree = "<group>"; };
+		D03E84D81BB58D1D00C6772F /* Basket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basket.m; sourceTree = "<group>"; };
 		D08261471BAC5EA1003E82B7 /* CommonData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +80,13 @@
 				D00B6D331BA422870033B1AB /* Tree.h */,
 				D00B6D341BA422980033B1AB /* Tree.m */,
 				D08261471BAC5EA1003E82B7 /* CommonData.h */,
+				D03E84D01BB5898900C6772F /* BasketIterator.h */,
+				D03E84D11BB589D000C6772F /* BasketIterator.m */,
+				D03E84D31BB58A8100C6772F /* Fruit.h */,
+				D03E84D41BB58ADF00C6772F /* Fruit.m */,
+				D03E84D61BB58CCB00C6772F /* Iterator.h */,
+				D03E84D71BB58CFC00C6772F /* Basket.h */,
+				D03E84D81BB58D1D00C6772F /* Basket.m */,
 			);
 			path = AppleTree;
 			sourceTree = "<group>";
@@ -130,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03E84D51BB58ADF00C6772F /* Fruit.m in Sources */,
 				D00B6D351BA422980033B1AB /* Tree.m in Sources */,
 				D00B6D321BA41BBF0033B1AB /* Apple.m in Sources */,
 				D00B6D2A1BA41AB20033B1AB /* main.m in Sources */,
+				D03E84D21BB589D000C6772F /* BasketIterator.m in Sources */,
+				D03E84D91BB58D1D00C6772F /* Basket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
